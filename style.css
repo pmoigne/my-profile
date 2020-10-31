@@ -1,0 +1,259 @@
+html {
+  scroll-behavior:smooth;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family:'Roboto', sans-serif;
+  width: 100%;
+  height:100%;
+}
+
+
+/*header*/
+.navbarr {
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+  background-color:#E98065;
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0rem;
+  align-items: center;
+}
+
+
+.nav-link {
+  color: white;
+  font-size:30px;;
+}
+
+.nav-link:hover {
+  color:#104469;
+}
+
+#mes-experiences{color: white;}
+
+/*Style général*/
+
+h1.myname{
+  font-size: 120px;
+  text-align: center;
+  color:white;
+}
+
+h2.titres {
+  font-size: 50px;
+  font-style:'Roboto', sans-serif;
+  text-align: center;
+  color: white;
+  padding:50px;
+}
+
+/*Home page*/
+
+div.nom {
+  background-image: url(images/coucher.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  font-family:'Roboto', sans-serif;
+  height: 700px;
+  text-align: center;
+}
+
+.linkedin-logo{width: 100px;}
+
+
+/*ntro*/
+.intro{
+  background-color:#E98065;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height:650px;
+}
+
+.txtimg {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left:20%;
+}
+.pp-cercle {
+  border-radius :60%;
+  border:8px solid #104469;
+  width: 80%;
+  padding:0px;
+  display: block;
+}
+
+.presentation-txt {
+  width: 400px;
+  font-size: 16px;
+  display:block;
+  text-align: justify;
+  padding-top:10%;
+}
+
+
+#qui-suis-je{color:#104469;}
+
+/*Expériences*/
+.exp {
+  background-image: url(images/paysage.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 600px;
+}
+
+.accordion {
+  width:1000px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Compétences*/
+
+.barres{
+  background-color: white;
+        width: 80%; 
+        border-radius: 15px;
+    } 
+  
+.skill {  
+  background-color:#104469;
+        color: white; 
+        padding: 1%; 
+        text-align: right; 
+        font-size: 20px; 
+        border-radius: 15px; 
+    } 
+  
+.emarsys { 
+        width: 95%; 
+    } 
+  
+.office{ width:90%;
+      }
+.SalesForce {width:80%;
+}
+
+.competences-blanc {color: white;
+font-size: 20px;}
+
+.SQL {width:70%;
+}
+.competences{
+  background-image: url(images/barque.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height:700px;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}       
+
+/*Formations*/
+
+.formation {background-image: url(images/ciel.jpg);
+  background-attachment: fixed;
+  height:600px;
+}
+
+div.accordion {
+  justify-content: center;
+  margin-left:auto;
+  margin-right:auto;
+  width:1200px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.fas {
+  padding-right: 30px;
+}
+
+span#year {
+  font-weight: bold;
+}
+
+
+div.card-header {
+  border-bottom: 2px solid #FFC7C7;
+  text-decoration: none;
+}
+
+div.card {
+  background-color: #E98065;
+  border: 2px solid #FFC7C7;
+}
+
+div#collapseOne, #collapseTwo, #collapseThree, #collapseFour {
+  background-color: #F5F5F5;
+  color: #000;
+  font-size: 12px;
+}
+
+div#collapseOne-experience, #collapseTwo-experience, #collapseThree-experience, #collapseFour-experience {
+  background-color: #F5F5F5;
+  color: #000;
+  font-size: 12px;
+}
+
+button.btn-link {
+  color: #104469;
+}
+
+button.btn-link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+
+/*Version responsive*/
+
+
+
+ @media (max-width: 540px) {.navbarr {width:500px;height: 50px;}}
+ @media (max-width: 540px) {.nav-link {color: white;font-size:12px;}}
+ @media (max-width: 540px) {div.nom {height: 600px;}}
+ @media (max-width: 540px) {h1.myname{font-size: 80px}}
+
+
+
+@media (max-width: 540px) {.intro {width: 500px; height: 700px;}
+@media (max-width: 540px) {.txtimg { margin-left:0%; display: flex; flex-direction:column; align-items: center;}}
+@media (max-width: 540px){.pp-cercle {
+  border-radius :50%;
+  margin-bottom: 5px;
+  border:2px solid #104469;
+  width: 150px;
+ }
+@media (max-width: 540px){.presentation-txt {
+  width: 400px;
+  font-size: 16px;
+  display:block;
+  text-align: justify;
+  padding-top:5%;
+}} 
+
+
+ @media (max-width: 540px){div.accordion {
+  width:400px;
+  justify-content:center;
+  margin-left: auto;
+  margin-right: auto;
+}}
+ @media (max-width: 540px){.exp{height:730px;}}
+
+
+@media (max-width: 540px){.formation{height:600px;}}
+
+ 
+
+
+.
